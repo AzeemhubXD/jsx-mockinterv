@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { vapi } from "@/lib/vapi.sdk";
 import { interviewer } from "@/constants";
+import Agent from "@/components/agent";
 
 enum CallStatus {
   INACTIVE = "INACTIVE",

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
-import Agent from "@/components/agent";
+import agent from "@/components/agent";
 import { getRandomInterviewCover } from "@/lib/utils";
 
 import {
@@ -10,6 +10,7 @@ import {
 } from "@/lib/actions/general.action";
 import { getCurrentUser } from "@/lib/actions/auth.action";
 import DisplayTechIcons from "@/components/DisplayTechIcons";
+import Agent from "@/components/agent";
 
 const InterviewDetails = async ({ params }: RouteParams) => {
   const { id } = await params;
