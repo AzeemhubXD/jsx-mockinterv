@@ -1,4 +1,4 @@
-import Agent from "@/components/Agent";
+import Agent from "@/components/agent";
 import React from "react";
 import { getCurrentUser } from "@/lib/actions/auth.action";
 
