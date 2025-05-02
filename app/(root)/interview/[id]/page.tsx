@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
-import Agent from "@/components/Agent";
+import Agent from "@/components/agent";
 import { getRandomInterviewCover } from "@/lib/utils";
 
 import {

@@ -20,7 +20,7 @@ interface SavedMessage {
   content: string;
 }
 
-const Agent = ({
+const agent = ({
   userName,
   userId,
   interviewId,
@@ -219,4 +219,4 @@ const Agent = ({
   );
 };
 
-export default Agent;
+export default agent;
